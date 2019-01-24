@@ -63,6 +63,8 @@ If you pass the `backup` argument it'll run a backup right now:
     Uploading dump to s3://myapp/db-backups/postgres_2019-01-24T20:23:25Z.sql.gz
     SQL backup uploaded successfully
 
+The tags are based on the PostgreSQL version the image is built with. You should just be able to use the latest version, even with older PostgreSQL server versions, but if you need a different version for any reason they are available.
+
 ## Acknowledgements
 
 Some scripts based on [schickling/postgres-backup-s3](https://github.com/schickling/dockerfiles/tree/master/postgres-backup-s3).
