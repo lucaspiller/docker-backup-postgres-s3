@@ -2,7 +2,7 @@
 
 FROM postgres:9-alpine
 
-RUN apk add --no-cache --update py2-pip
+RUN apk add --no-cache python3 py3-pip
 RUN pip install awscli
 
 COPY docker-entrypoint.sh /usr/local/bin/
