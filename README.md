@@ -10,6 +10,13 @@ Yes there are a lot of other containers that promise to do similar things, howev
 * A lot of the other images do weird stuff like re-implement cron.
 * This image runs on Alpine, so it's small. Additionally it's based on the official PostgreSQL image, so if you already have that, then there is even less to download.
 
+# Supported Versions
+* 9 
+* 10
+* 11
+* 12
+* TimescaleDB 12
+
 ## Required Envionment Variables
 
 - `S3_ACCESS_KEY_ID` - Your AWS access key.

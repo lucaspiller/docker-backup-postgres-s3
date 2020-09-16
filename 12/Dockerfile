@@ -1,6 +1,6 @@
 # vim: set noexpandtab ts=4 sw=4 nolist:
 
-FROM postgres:9-alpine
+FROM postgres:12-alpine
 
 RUN apk add --no-cache python3 py3-pip
 RUN pip install awscli
